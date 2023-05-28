@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.3//EN"
+"http://www.wapforum.org/DTD/wml13.dtd">
+<wml>
+<card id="ABC" title="Practical 1">
+<p>
+Syeda Reeha Quasar 14114802719
+</p>
+<onevent type="ontimer">
+<go href="#ABC1"/>
+</onevent>
+<timer value="50"/>
+</card>
+<card id="ABC1" title="SYNTAX 1">
+<p>
+<b>Syeda Reeha Quasar</b><br>
+<big>Syeda Reeha Quasar</big><br>
+<em>Syeda Reeha Quasar</em><br>
+<i>Syeda Reeha Quasar</i><br>
+<small>Syeda Reeha Quasar</small><br>
+<strong>Syeda Reeha Quasar</strong><br>
+<u>Syeda Reeha Quasar</u>
+</p>
+</card>
+</wml>

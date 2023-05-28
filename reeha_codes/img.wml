@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="text" title="059 Exp-3">
+<p><b>Image Table</b></p>
+<p>
+<table columns="3" align="LCR">
+<tr>
+<td><b>Image name</b></td>
+<td><b>Image</b></td>
+<td><b>Image link</b></td>
+</tr>
+<tr>
+<td>Sun</td>
+<td><img src="sun.jpg" alt="Sun image" height="55" width="55"/></td>
+<td><anchor>Image Link<go href="sun.wml"/></anchor></td>
+</tr>
+<tr>
+<td>Earth</td>
+<td><img src="earth.png" alt="Earth image" height="47" width="50"/></td>
+<td><anchor>Image Link<go href="earth.wml"/></anchor></td>
+</tr>
+<tr>
+<td>Moon</td>
+<td><img src="moon.jpg" alt="Moon image" height="55" width="55"/></td>
+<td><anchor>Image Link<go href="moon.wml"/></anchor></td>
+</tr>
+</table>
+</p>
+</card>
+</wml>
+Moon, Sun & Earth Page:
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.2//EN"
+"http://www.wapforum.org/DTD/wml12.dtd">
+<wml>
+<card title="059 Exp3 Sun">
+<b>Sun</b>
+<p><img src="sun.jpg" alt="Sun image" height="100" width="100"/></p>
+<p>
+<anchor> Prev Page
+<prev/>
+</anchor>
+</p>
+</card>
+</wml>
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.2//EN"
+"http://www.wapforum.org/DTD/wml12.dtd">
+<wml>
+<card title="059 Exp3 Earth">
+<b>Earth</b>
+<p><img src="earth.png" alt="Earth image" height="100" width="100"/></p>
+<p>
+<anchor> Prev Page
+<prev/>
+</anchor>
+</p>
+</card>
+</wml>
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.2//EN"
+"http://www.wapforum.org/DTD/wml12.dtd">
+<wml>
+<card title="059 Exp3 Moon">
+<b>Moon</b>
+<p><img src="moon.jpg" alt="Moon image" height="100" width="100"/></p>
+<p>
+<anchor> Prev Page
+<prev/>
+</anchor>
+</p>
+</card>
+</wml>

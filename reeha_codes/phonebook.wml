@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+    <card id="card1" title="Phone Book" newcontext="true">
+        <p>
+            <b>Phone Book</b>
+        </p>
+
+        <p>
+            Select Contact Name:
+            <select name="name" value="Reeha" title="Name">
+                <option value="Reeha">Reeha</option>
+                <option value="Saba">Saba</option>
+                <option value="Shruti">Shruti</option>
+                <option value="Saleena">Saleena</option>
+            </select>
+            <br><br>
+            <do type="accept" label="Get number">
+                <go href="Phonebook.wmls#phone()"/>
+            </do>
+        </p>
+    </card>
+
+    <card id="card2" title="Phone Number">
+        <p>
+            Contact Details
+        </p>
+        <p>
+            <b>$(fullname)</b><br>
+            <b>$(phoneNumber)</b><br>
+            <b>$(email)</b>
+        </p>
+    </card>
+</wml>

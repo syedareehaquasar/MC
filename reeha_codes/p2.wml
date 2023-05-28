@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.3//EN"
+"http://www.wapforum.org/DTD/wml13.dtd">
+<wml>
+<card id="CardNo.1" title="Program2Card1">
+<p>You Are Visiting Card 1</p>
+<do type="accept" name="CardNo.2" label="Continue">
+<go href="#CardNo.2"/>
+</do>
+</card>
+<card id="CardNo.2" title="Program2Card2">
+<p>You Are Visiting Card 2</p>
+<do type="accept" name="CardNo.3" label="Continue">
+<go href="#CardNo.3"/>
+</do>
+</card>
+<card id="CardNo.3" title="Program2Card3">
+<p>You Are Visiting Card 3</p>
+<do type="accept" name="CardNo.1" label="Go Back">
+<go href="#CardNo.1"/>
+</do>
+</card>
+</wml>

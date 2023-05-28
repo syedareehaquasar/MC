@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.3//EN"
+"http://www.wapforum.org/DTD/wml13.dtd">
+<wml>
+<card id="CardNo.1" title="Program3Card1">
+<p>
+<table columns="3" align="LCR">
+<tr>
+<td>Image Name</td>
+<td>Image</td>
+<td>Link</td>
+</tr>
+<tr>
+<td>Thumb Image</td>
+<td><img src="thumb.wbmp" alt="Thumb Image"/></td>
+<td><anchor><a href="#CardNo.2">CardNo2</a></anchor></td>
+</tr>
+<tr>
+<td>Heart Image</td>
+<td><img src="heart.wbmp" alt="Heart Image"/></td>
+<td><anchor><a href="#CardNo.3">CardNo3</a></anchor></td>
+</tr>
+</table>
+</p>
+</card>
+<card id="CardNo.2" title="Program3Card2">
+<p>You Are Visiting Card 2</p>
+<do type="accept" name="CardNo.3" label="Continue">
+<go href="#CardNo.3"/>
+</do>
+</card>
+<card id="CardNo.3" title="Program3Card3">
+<p>You Are Visiting Card 3</p>
+<do type="accept" name="CardNo.1" label="Go Back">
+<go href="#CardNo.1"/>
+</do>
+</card>
+ 
+</wml>

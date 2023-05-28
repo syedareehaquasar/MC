@@ -1,0 +1,37 @@
+extern function phone() {
+    var a = WMLBrowser.getVar("name"); 
+    var username = "Full Name : ";
+    var email = "Email Id : "; 
+    var phone = "Contact No : ";
+
+    if(String.compare(a,"Reeha")==0) { 
+        username = username + "Syeda Reeha Quasar"; 
+        email = email + "Reeha@google.com"; 
+        phone = phone + "9870455572";
+    }
+    else if(String.compare(a,"Saba")==0) { 
+        username = username + "Syeda Saba Quasar"; 
+        email = email + "saba@gmail.com"; 
+        phone = phone + "9667678507";
+    }
+    else if(String.compare(a,"Shruti")==0) { 
+        username = username + "Shruti Cherwal"; 
+        email = email + "Shruti@gmail.com";    
+        phone = phone + "9898786765";
+    }
+    else if(String.compare(a,"Saleena")==0) { 
+        username = username + "Saleena Fatima"; 
+        email = email + "Saleena@gmail.com"; 
+        phone = phone + "9887867677";
+    }
+    else {
+        username = "Invalid"; 
+        email = "Invalid"; 
+        phone = "Invalid";
+    }
+    
+    WMLBrowser.setVar("fullname",username); 
+    WMLBrowser.setVar("phoneNumber",phone); 
+    WMLBrowser.setVar("email",email); 
+    WMLBrowser.go("Phonebook.wml#card2");
+}
